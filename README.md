@@ -18,5 +18,5 @@ To get started with Match the Cards:
 Prepare a set of 12 matching tiles and shuffle them face down on the game board.
 Click on two tiles; if they don't match, the game will display a vibrating or shaking animation. If they match, a rotating animation will appear.
 Keep track of your progress with the displayed number of moves.
-Use the reset/restart button to reset the game and move counter.
-Successfully match all tiles to trigger a "YOU WON!" popup. Enjoy the classic memory game with interactive animations!
+Use the reset/restart button to reset the game and play again.
+Successfully match all tiles to trigger a "YOU WON!" popup.
