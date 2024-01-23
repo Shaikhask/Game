@@ -1,5 +1,3 @@
-let move = 0
-
 const boardGame = document.querySelector(".boardGame")
 const resetBtn = document.querySelector(".resetBtn")
 const numMoves = document.querySelector(".move")
@@ -13,6 +11,8 @@ const endGame = () => {
     let winMsg = alert("You Won!")
   }
 }
+
+let move = 0
 
 let prevCard = ""
 let colorArr = []
@@ -32,6 +32,8 @@ boardGame.addEventListener("click", (evt) => {
       colorArr = []
       prevCard = ""
       endGameArr.push(0)
+      move++
+      numMoves.innerText = move
       endGame()
     } else {
       console.log("No match")
@@ -40,6 +42,8 @@ boardGame.addEventListener("click", (evt) => {
         prevCard.style.backgroundColor = "#ee8f00"
         colorArr = []
         prevCard = ""
+        move++
+        numMoves.innerText = `Moves: ${move}`
       }, 555)
     }
   } else {
