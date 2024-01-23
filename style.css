@@ -1,0 +1,80 @@
+.gametitle {
+  font-size: xx-large;
+  font-family: Tahoma;
+  color: rgb(238, 143, 0);
+  text-align: center;
+  margin-top: 40px;
+}
+
+.resetBtn {
+  background-color: rgb(238, 143, 0);
+  border: none;
+  border-radius: 15px;
+  color: white;
+  padding: 10px 15px;
+  font-size: large;
+  margin-left: 20px;
+}
+
+.move {
+  background-color: rgb(238, 143, 0);
+  border: none;
+  border-radius: 15px;
+  color: white;
+  padding: 10px 15px;
+  font-size: large;
+  float: right;
+  margin-right: 20px;
+}
+
+.boardGame {
+  margin-top: 6%;
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+section {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #818181;
+  width: 100px;
+  height: 100px;
+  border: 4px solid #696969;
+  border-radius: 10px;
+  font-size: 200%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.c1 {
+  background-color: #83deff;
+}
+
+.c2 {
+  background-color: rgb(235, 175, 97);
+}
+
+.c3 {
+  background-color: rgb(75, 189, 151);
+}
+
+.c4 {
+  background-color: rgb(219, 207, 101);
+}
+
+.c5 {
+  background-color: rgb(216, 114, 140);
+}
+
+.c6 {
+  background-color: rgb(175, 114, 216);
+}
