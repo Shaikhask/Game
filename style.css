@@ -1,13 +1,13 @@
 .gametitle {
   font-size: xx-large;
   font-family: Tahoma;
-  color: rgb(238, 143, 0);
+  color: #ee8f00;
   text-align: center;
   margin-top: 40px;
 }
 
 .resetBtn {
-  background-color: rgb(238, 143, 0);
+  background-color: #ee8f00;
   border: none;
   border-radius: 15px;
   color: white;
@@ -17,7 +17,7 @@
 }
 
 .move {
-  background-color: rgb(238, 143, 0);
+  background-color: #ee8f00;
   border: none;
   border-radius: 15px;
   color: white;
@@ -43,10 +43,10 @@ section {
 }
 
 .card {
-  background-color: #818181;
+  background-color: #ee8f00;
   width: 100px;
   height: 100px;
-  border: 4px solid #696969;
+  border: 4px solid #d27e00;
   border-radius: 10px;
   font-size: 200%;
   display: flex;
@@ -55,26 +55,6 @@ section {
   cursor: pointer;
 }
 
-.c1 {
-  background-color: #83deff;
-}
-
-.c2 {
-  background-color: rgb(235, 175, 97);
-}
-
-.c3 {
-  background-color: rgb(75, 189, 151);
-}
-
-.c4 {
-  background-color: rgb(219, 207, 101);
-}
-
-.c5 {
-  background-color: rgb(216, 114, 140);
-}
-
-.c6 {
-  background-color: rgb(175, 114, 216);
+body {
+  background-color: #fff698;
 }
