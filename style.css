@@ -1,9 +1,11 @@
 .gametitle {
-  font-size: xx-large;
-  font-family: Tahoma;
+  font-size: 300%;
+  font-family: "Trebuchet MS";
+  font-weight: bolder;
   color: #ee8f00;
   text-align: center;
   margin-top: 40px;
+  margin-bottom: 4%;
 }
 
 .resetBtn {
@@ -12,8 +14,10 @@
   border-radius: 15px;
   color: white;
   padding: 10px 15px;
+  font-family: "Trebuchet MS";
+  font-weight: bold;
   font-size: large;
-  margin-left: 20px;
+  margin-left: 50px;
 }
 
 .move {
@@ -22,13 +26,15 @@
   border-radius: 15px;
   color: white;
   padding: 10px 15px;
+  font-family: "Trebuchet MS";
+  font-weight: bold;
   font-size: large;
   float: right;
-  margin-right: 20px;
+  margin-right: 40px;
 }
 
 .boardGame {
-  margin-top: 6%;
+  margin-top: 40px;
   display: grid;
   grid-template-columns: repeat(4, 100px);
   gap: 30px;

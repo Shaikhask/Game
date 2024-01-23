@@ -33,7 +33,7 @@ boardGame.addEventListener("click", (evt) => {
       prevCard = ""
       endGameArr.push(0)
       move++
-      numMoves.innerText = move
+      numMoves.innerText = `Moves: ${move}`
       endGame()
     } else {
       console.log("No match")
