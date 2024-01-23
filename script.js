@@ -7,6 +7,13 @@ const numMoves = document.querySelector(".move")
 resetBtn.addEventListener("click", () => {
   // console.log("clicked")
 })
+let endGameArr = []
+const endGame = () => {
+  if (endGameArr.length === 6) {
+    let winMsg = alert("You Won!")
+  }
+}
+
 let prevCard = ""
 let colorArr = []
 boardGame.addEventListener("click", (evt) => {
@@ -24,11 +31,13 @@ boardGame.addEventListener("click", (evt) => {
       console.log("Match")
       colorArr = []
       prevCard = ""
+      endGameArr.push(0)
+      endGame()
     } else {
       console.log("No match")
       setTimeout(() => {
-        card.style.backgroundColor = "#818181"
-        prevCard.style.backgroundColor = "#818181"
+        card.style.backgroundColor = "#ee8f00"
+        prevCard.style.backgroundColor = "#ee8f00"
         colorArr = []
         prevCard = ""
       }, 555)
