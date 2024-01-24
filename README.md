@@ -58,3 +58,16 @@ Find matching pairs of cards to win the game. The player with the least amount o
 #### Start Game page
 
 ![Level 1](<Screen Shot 2024-01-24 at 7.44.29 PM.png>)
+
+#### Level One
+
+![Level 2](<Screen Shot 2024-01-24 at 3.57.52 PM.png>)
+
+#### Level Two
+
+---
+
+### Resources
+
+- ##### [W3Schools-Reload](https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_loc_reload) | [W3Schools-Dropdown-Hover](https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_text)
+- ##### Salman Buali helped fix the hover box position.
