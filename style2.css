@@ -37,7 +37,9 @@ a:active {
   text-align: center;
   text-decoration: none;
   margin-top: 30px !important;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 0 auto;
   width: 100px;
 }
@@ -53,6 +55,7 @@ a:active {
 
 .dropdown-content {
   display: none;
+  margin-top: 360px;
   position: absolute;
   background-color: #ffffff;
   font-family: "Trebuchet MS";
