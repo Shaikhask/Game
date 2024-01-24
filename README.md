@@ -1,10 +1,6 @@
 ## Matchy Matchy
 
----
-
 ### **Description**
-
-#####
 
 Match the Cards is a memory-based game where players flip pairs of face-down cards to find matches. The goal is to uncover all matching pairs with the fewest turns. It's a classic and engaging game suitable for everyone.
 Shuffle a deck of cards with identical pairs and place them face down on a surface.
@@ -13,17 +9,7 @@ Successfully matched pairs are removed, and the game continues until all pairs a
 
 ---
 
-### **Technologies used**
-
-- HTML
-- CSS
-- Javascript
-
----
-
----
-
-### **_How to Get Started_**
+### **How to Get Started**
 
 #####
 
@@ -51,6 +37,24 @@ Find matching pairs of cards to win the game. The player with the least amount o
 1. Pay attention to card positions.
 2. Enjoy the game and have fun!
 
-#### Winning:
+### Winning:
 
-The player with the least amount of moves wins! Ready to Match It? Go!
+##### The player with the least amount of moves wins! Ready to Match It? Go!
+
+---
+
+### **Technologies used**
+
+- HTML
+- CSS
+- Javascript
+
+---
+
+### **Visuals**
+
+![Start Game](<Screen Shot 2024-01-24 at 4.55.59 PM.png>)
+
+#### Start Game page
+
+![Level 1](<Screen Shot 2024-01-24 at 7.44.29 PM.png>)

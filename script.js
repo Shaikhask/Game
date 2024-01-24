@@ -22,10 +22,10 @@ boardGame.addEventListener("click", (evt) => {
   let cardColor = card.getAttribute("color")
   console.log(cardColor)
   card.style.backgroundColor = cardColor.toLowerCase()
-  //add the cardColor to the array
+
   colorArr.push(cardColor)
   console.log(colorArr)
-  //if the array has two elements, compare them
+
   if (colorArr.length === 2) {
     if (colorArr[0] === colorArr[1]) {
       console.log("Match")
@@ -51,12 +51,3 @@ boardGame.addEventListener("click", (evt) => {
     console.log(prevCard)
   }
 })
-
-//1 figure out a way to remember the color value of which cards have been clicked
-//2 figure out a way to compare those values
-
-const numArray = []
-
-const number = 2
-
-numArray.push(number)
