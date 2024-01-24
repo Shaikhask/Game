@@ -81,8 +81,12 @@ body {
   font-size: large;
   display: flex;
   margin: 0 auto;
+  text-decoration: none;
 }
-
+.nxtLvl a {
+  text-decoration: none;
+  color: white;
+}
 .nxtLvl:active {
   background-color: #d27e00;
 }
