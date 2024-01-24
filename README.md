@@ -53,15 +53,19 @@ Find matching pairs of cards to win the game. The player with the least amount o
 
 ### **Visuals**
 
-![Start Game](<Screen Shot 2024-01-24 at 4.55.59 PM.png>)
+![Start Game](<Screen Shot 2024-01-24 at 9.12.18 PM.png>)
 
 #### Start Game page
 
-![Level 1](<Screen Shot 2024-01-24 at 7.44.29 PM.png>)
+![Game Objectives](<Screen Shot 2024-01-24 at 9.12.25 PM.png>)
+
+#### Game Objectives
+
+![Level 1](<Screen Shot 2024-01-24 at 9.12.34 PM.png>)
 
 #### Level One
 
-![Level 2](<Screen Shot 2024-01-24 at 3.57.52 PM.png>)
+![Level 2](<Screen Shot 2024-01-24 at 9.12.39 PM.png>)
 
 #### Level Two
 
