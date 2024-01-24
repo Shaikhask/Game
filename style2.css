@@ -1,10 +1,10 @@
 body {
-  background-color: #fff698;
+  background-color: #f8bfb6;
 }
 
 a:link,
 a:visited {
-  background-color: #ee8f00;
+  background-color: #3e59a5;
   color: white;
   padding: 14px 25px;
   font-family: "Trebuchet MS";
@@ -18,7 +18,7 @@ a:visited {
 
 a:hover,
 a:active {
-  background-color: #d27e00;
+  background-color: #284081;
 }
 
 .middle {
@@ -27,7 +27,7 @@ a:active {
   justify-content: center;
 }
 .dropdown {
-  background-color: #ee8f00;
+  background-color: #3e59a5;
   color: white;
   padding: 5px 21px;
   font-family: "Trebuchet MS";
@@ -46,7 +46,7 @@ a:active {
 
 .dropdown:hover,
 .dropdown:active {
-  background-color: #d27e00;
+  background-color: #284081;
 }
 
 .dropdown:hover .dropdown-content {
@@ -60,9 +60,9 @@ a:active {
   background-color: #ffffff;
   font-family: "Trebuchet MS";
   font-size: 100%;
-  color: black;
+  color: #3e59a5;
   min-width: 360px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 8px 16px 0px #00000033;
   padding: 12px 16px;
   z-index: 1;
 }

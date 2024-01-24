@@ -67,7 +67,11 @@ Find matching pairs of cards to win the game. The player with the least amount o
 
 ---
 
-### Resources
+### Credits
 
-- ##### [W3Schools-Reload](https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_loc_reload) | [W3Schools-Dropdown-Hover](https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_text)
+- ##### [W3Schools-Reload](https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_loc_reload) | [W3Schools-Dropdown-Hover](https://www.w3schools.com/css/tryit.asp?filename=trycss_dropdown_text) | [Huemint-Color-Palette](https://huemint.com/brand-3/)
 - ##### Salman Buali helped fix the hover box position.
+
+- ##### Nayef Alzayani helped fix the "moves: " display.
+
+- ##### I got Emotional Support From Shaikha.

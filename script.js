@@ -38,8 +38,8 @@ boardGame.addEventListener("click", (evt) => {
     } else {
       console.log("No match")
       setTimeout(() => {
-        card.style.backgroundColor = "#ffd176"
-        prevCard.style.backgroundColor = "#ffd176"
+        card.style.backgroundColor = "#fd795e"
+        prevCard.style.backgroundColor = "#fd795e"
         colorArr = []
         prevCard = ""
         move++
