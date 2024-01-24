@@ -3,7 +3,7 @@ const resetBtn = document.querySelector(".resetBtn")
 const numMoves = document.querySelector(".move")
 
 resetBtn.addEventListener("click", () => {
-  // console.log("clicked")
+  location.reload()
 })
 let endGameArr = []
 const endGame = () => {
