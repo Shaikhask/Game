@@ -7,8 +7,8 @@ resetBtn.addEventListener("click", () => {
 })
 let endGameArr = []
 const endGame = () => {
-  if (endGameArr.length === 6) {
-    let winMsg = alert("You Won!")
+  if (endGameArr.length === 10) {
+    let winMsg = alert("Woohoo You Won Again!")
   }
 }
 
