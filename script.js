@@ -38,13 +38,13 @@ boardGame.addEventListener("click", (evt) => {
     } else {
       console.log("No match")
       setTimeout(() => {
-        card.style.backgroundColor = "#ee8f00"
-        prevCard.style.backgroundColor = "#ee8f00"
+        card.style.backgroundColor = "#ffd176"
+        prevCard.style.backgroundColor = "#ffd176"
         colorArr = []
         prevCard = ""
         move++
         numMoves.innerText = `Moves: ${move}`
-      }, 555)
+      }, 400)
     }
   } else {
     prevCard = card
