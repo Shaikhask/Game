@@ -13,25 +13,22 @@ const endGame = () => {
 }
 
 let move = 0
-
+let tooEarly = false
 let prevCard = ""
 let colorArr = []
 boardGame.addEventListener("click", (evt) => {
+  if (tooEarly === true) {
+    return
+  }
   console.log(evt.target)
   let card = evt.target
   let cardColor = card.getAttribute("color")
+
   console.log(cardColor)
   card.style.backgroundColor = cardColor.toLowerCase()
 
   colorArr.push(cardColor)
   console.log(colorArr)
-
-  let tooEarly = false
-  const early = () => {
-    if (tooEarly === true) {
-      return
-    }
-  }
 
   if (colorArr.length === 2) {
     tooEarly = true
@@ -42,8 +39,8 @@ boardGame.addEventListener("click", (evt) => {
       endGameArr.push(0)
       move++
       numMoves.innerText = `Moves: ${move}`
+      tooEarly = false
       endGame()
-      early()
     } else {
       console.log("No match")
       setTimeout(() => {
@@ -54,7 +51,7 @@ boardGame.addEventListener("click", (evt) => {
         move++
         numMoves.innerText = `Moves: ${move}`
         tooEarly = false
-      }, 400)
+      }, 1400)
     }
   } else {
     prevCard = card
