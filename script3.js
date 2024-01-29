@@ -22,11 +22,19 @@ boardGame.addEventListener("click", (evt) => {
   let cardColor = card.getAttribute("color")
   console.log(cardColor)
   card.style.backgroundColor = cardColor.toLowerCase()
-  //add the cardColor to the array
+
   colorArr.push(cardColor)
   console.log(colorArr)
-  //if the array has two elements, compare them
+
+  let tooEarly = false
+  const early = () => {
+    if (tooEarly === true) {
+      return
+    }
+  }
+
   if (colorArr.length === 2) {
+    tooEarly = true
     if (colorArr[0] === colorArr[1]) {
       console.log("Match")
       colorArr = []
@@ -44,6 +52,7 @@ boardGame.addEventListener("click", (evt) => {
         prevCard = ""
         move++
         numMoves.innerText = `Moves: ${move}`
+        tooEarly = false
       }, 400)
     }
   } else {
